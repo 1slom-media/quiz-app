@@ -1,0 +1,24 @@
+.header{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo{
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 30px;
+        color: #002E5B;
+    }
+
+    &__socials{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        &-link{
+            color: #002E5B;
+            font-size: 28px;  
+        }
+    }
+}
